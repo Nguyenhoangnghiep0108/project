@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f5">
+  <title>Thư xin lỗi em 💗</title>
+  <style>
+    :root {
+      --pink: #ff6f9f; --deep: #e94f83; --pale: #fff0f5;
+      --ink: #583747; --cream: #fffafc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; overflow-x: hidden;
+      font-family: "Trebuchet MS", Arial, sans-serif; color: var(--ink);
+      background: radial-gradient(circle at 15% 15%, #ffe0eb, transparent 32%),
+                  radial-gradient(circle at 85% 75%, #ffe8c9, transparent 30%),
+                  linear-gradient(135deg, #fff7fa, #ffeef4);
+    }
+    .wrap { width: min(940px, 92%); margin: auto; padding: 42px 0 60px; }
+    .hero { text-align: center; margin-bottom: 28px; }
+    .tag { display: inline-block; padding: 8px 15px; border-radius: 99px; background: white; color: var(--deep); font-size: 13px; box-shadow: 0 5px 18px #d95c8520; }
+    h1 { font-size: clamp(30px, 6vw, 52px); margin: 15px 0 8px; color: #d94f80; }
+    .subtitle { margin: 0; line-height: 1.7; }
+    .layout { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: center; }
+    .card { background: #ffffffd9; border: 1px solid #ffffff; border-radius: 26px; padding: 22px; box-shadow: 0 15px 45px #b54c7020; }
+    .photos { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .photos img { width: 100%; height: 270px; object-fit: cover; border-radius: 18px; transform: rotate(-2deg); box-shadow: 0 8px 22px #58374722; }
+    .photos img:nth-child(2) { transform: rotate(2deg); }
+    .caption { text-align: center; font-size: 13px; margin: 15px 0 0; color: #946b7b; }
+    .gift-area { text-align: center; padding: 12px 5px 4px; }
+    .gift-area h2 { margin: 0 0 7px; color: #d94f80; }
+    .gift-area p { line-height: 1.6; }
+    .gift-button { border: 0; background: none; cursor: pointer; padding: 10px; }
+    .gift { width: 170px; height: 145px; margin: 28px auto 18px; position: relative; transition: transform .25s; }
+    .gift:hover { transform: translateY(-6px) rotate(-2deg); }
+    .gift-box { position: absolute; bottom: 0; left: 10px; width: 150px; height: 100px; border-radius: 8px 8px 13px 13px; background: linear-gradient(135deg,#ff8db3,#ef4f88); box-shadow: 0 12px 20px #c64b782e; }
+    .gift-box:before { content:""; position:absolute; left:61px; top:0; height:100%; width:28px; background:#ffe9a8; }
+    .gift-lid { position:absolute; z-index:2; top:35px; left:0; width:170px; height:28px; border-radius:7px; background:#f75e95; transform-origin: 12% 90%; transition: transform .8s cubic-bezier(.2,.8,.2,1); }
+    .gift-lid:before { content:""; position:absolute; left:71px; top:0; width:28px; height:28px; background:#ffe9a8; }
+    .bow { position:absolute; z-index:3; top:7px; left:60px; width:50px; height:35px; }
+    .bow:before,.bow:after { content:""; position:absolute; width:29px; height:23px; border:8px solid #e94f83; border-radius:50% 50% 10% 50%; }
+    .bow:before { left:-4px; transform:rotate(28deg); } .bow:after { right:-4px; transform:scaleX(-1) rotate(28deg); }
+    .gift.open .gift-lid { transform: translate(-25px,-65px) rotate(-28deg); }
+    .gift.open { animation: pop .6s ease; }
+    @keyframes pop { 50% { transform: translateY(-12px) scale(1.05); } }
+    .hint { color:#a56b82; font-size:13px; }
+    .btn { display:inline-block; border:0; border-radius:999px; padding:12px 20px; margin:5px; background:var(--pink); color:white; font-weight:700; cursor:pointer; box-shadow:0 7px 16px #e95b8b35; transition:.2s; }
+    .btn:hover { background:var(--deep); transform:translateY(-2px); }
+    .btn.secondary { background:#fff; color:var(--deep); border:1px solid #ffd0df; }
+    .letter { display:none; margin-top:22px; text-align:left; background:#fffafc; border:1px dashed #f5a4bf; border-radius:18px; padding:20px; line-height:1.8; animation: appear .5s ease; }
+    .letter.show { display:block; }
+    @keyframes appear { from { opacity:0; transform:translateY(12px); } to {opacity:1; transform:none;} }
+    .letter h3 { text-align:center; color:#d94f80; margin-top:0; }
+    .letter p { margin:10px 0; }
+    .sign { text-align:right; color:#d94f80; font-weight:bold; }
+    .reaction { min-height:28px; text-align:center; font-weight:bold; color:#d94f80; margin-top:10px; }
+    .footer { text-align:center; font-size:12px; color:#a98794; margin-top:26px; }
+    .heart { position:fixed; bottom:-30px; pointer-events:none; animation: floatUp 4s linear forwards; z-index:10; }
+    @keyframes floatUp { to { transform:translateY(-110vh) rotate(35deg); opacity:0; } }
+    @media(max-width:700px) {
+      .wrap { padding-top:25px; } .layout { grid-template-columns:1fr; }
+      .photos img { height:220px; } .card { padding:17px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <span class="tag">THÔNG BÁO KHẨN CẤP 🚨 • PHIÊN BẢN NGƯỜI YÊU</span>
+      <h1>Gửi em bé của anh 💗</h1>
+      <p class="subtitle">Anh có một chiếc thư nhỏ và một món quà tinh thần muốn gửi đến em.<br>Vui lòng đọc hết trước khi xử án bị cáo nha 🥺</p>
+    </header>
+
+    <section class="layout">
+      <div class="card">
+        <div class="photos">
+          <img src="assets/anh-1.jpg" alt="Ảnh dễ thương 1">
+          <img src="assets/anh-2.jpg" alt="Ảnh dễ thương 2">
+        </div>
+        <p class="caption">Hai chiếc ảnh làm anh càng thấy mình phải trân trọng em hơn 💞</p>
+      </div>
+
+      <div class="card gift-area">
+        <h2>🎁 Quà xin lỗi độc quyền</h2>
+        <p>Không có giá trị quy đổi ra tiền…<br>nhưng có đính kèm một người đang rất biết lỗi.</p>
+        <button class="gift-button" id="giftButton" aria-label="Mở hộp quà">
+          <div class="gift" id="gift">
+            <div class="bow"></div><div class="gift-lid"></div><div class="gift-box"></div>
+          </div>
+          <span class="hint">Chạm vào hộp quà để mở nè 👆</span>
+        </button>
+        <div><button class="btn" id="openLetter">Đọc thư xin lỗi 💌</button></div>
+        <div class="letter" id="letter">
+          <h3>💌 Thư gửi em</h3>
+          <p>Em à,</p>
+          <p>Anh xin lỗi vì chuyện vừa rồi và vì đã làm em buồn. Anh biết chỉ nói một câu “xin lỗi” thì không thể khiến mọi thứ lập tức ổn lại, cũng không thể xem nhẹ cảm xúc của em.</p>
+          <p>Anh không muốn lấy lý do để biện minh cho điều mình đã làm. Anh sẽ lắng nghe em nhiều hơn, suy nghĩ kỹ hơn trước khi nói hoặc hành động, và cố gắng sửa bằng những việc cụ thể chứ không chỉ hứa suông.</p>
+          <p>Anh thương em, trân trọng em và những điều dễ thương mà tụi mình đã có. Anh mong em có thể cho anh cơ hội để làm tốt hơn. Còn nếu em vẫn cần thời gian, anh tôn trọng điều đó và sẽ không ép em phải vui ngay.</p>
+          <p>Cảm ơn em vì đã đọc đến đây. Anh thật lòng xin lỗi. 🥺</p>
+          <p class="sign">Người đang kiểm điểm bản thân,<br>Anh ❤️</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:24px;text-align:center">
+      <h2 style="color:#d94f80;margin-top:0">Tòa án tình yêu xin đưa ra lựa chọn 😭</h2>
+      <p>Bị cáo đã nhận lỗi. Hội đồng em bé có thể lựa chọn:</p>
+      <button class="btn" id="forgive">Tạm tha có điều kiện 💗</button>
+      <button class="btn secondary" id="time">Cho bị cáo thời gian suy ngẫm 🥲</button>
+      <div class="reaction" id="reaction" aria-live="polite"></div>
+    </section>
+    <p class="footer">Được làm bằng sự chân thành và một chút “meme” • Không có nút ép buộc tha thứ 💗</p>
+  </main>
+
+  <script>
+    const gift = document.getElementById('gift');
+    const letter = document.getElementById('letter');
+    const reaction = document.getElementById('reaction');
+
+    function openGift() {
+      gift.classList.add('open');
+      letter.classList.add('show');
+      burstHearts();
+      document.getElementById('openLetter').textContent = 'Đọc lại thư 💌';
+    }
+
+    document.getElementById('giftButton').addEventListener('click', openGift);
+    document.getElementById('openLetter').addEventListener('click', () => {
+      letter.classList.toggle('show');
+      if (letter.classList.contains('show')) burstHearts();
+    });
+
+    document.getElementById('forgive').addEventListener('click', () => {
+      reaction.textContent = 'Bị cáo xin hứa sẽ dùng hành động để chứng minh! 🥹💞';
+      burstHearts(22);
+    });
+
+    document.getElementById('time').addEventListener('click', () => {
+      reaction.textContent = 'Dạ, anh tôn trọng cảm xúc của em. Khi nào em sẵn sàng, anh sẽ lắng nghe. ❤️';
+    });
+
+    function burstHearts(count = 12) {
+      const symbols = ['💗','💕','💖','🌷','✨'];
+      for (let i = 0; i < count; i++) {
+        const el = document.createElement('span');
+        el.className = 'heart';
+        el.textContent = symbols[Math.floor(Math.random() * symbols.length)];
+        el.style.left = Math.random() * 100 + 'vw';
+        el.style.fontSize = (18 + Math.random() * 20) + 'px';
+        el.style.animationDuration = (3 + Math.random() * 2) + 's';
+        document.body.appendChild(el);
+        setTimeout(() => el.remove(), 5200);
+      }
+    }
+  </script>
+</body>
+</html>
